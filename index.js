@@ -23,3 +23,7 @@ function appendDriver(name) {
 function prependDriver(name) {
   return ["Arnold", ...drivers]
 }
+
+function removelastDriver() {
+  return drivers.pop();
+}
